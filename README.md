@@ -1,7 +1,7 @@
-### What are some differences between interfaces and types in TypeScript?
+# What are some differences between interfaces and types in TypeScript?
 
 In TypeScript, both interfaces and types define the shape of data, but they differ in use. Interfaces are mostly used for objects and classes and can be extended or implemented. They allow you to create reusable structures. Types, on the other hand, are more flexible. They can define not only objects but also unions, intersections, and even primitive types or tuples.Interfaces can be reopened and merged, meaning you can add properties to them in different places. Types cannot be reopened once defined. Overall, interfaces are ideal for object-oriented structures, while types are better for more complex types.
 
-### How Does TypeScript Help Improve Code Quality and Project Maintainability?
+# How Does TypeScript Help Improve Code Quality and Project Maintainability?
 
 TypeScript improves code quality and project maintainability by finding errors early in the coding process. It forces you to think about the data types that you use and checks your code for mistakes before you even run the program. This early error detection means you can fix problems quickly and avoid unexpected crashes. Additionally, TypeScript makes your code more understandable by clearly defining the types for variables and functions. This clarity is very helpful when many people work on a project, as everyone can see exactly what each part of the code is supposed to do. Over time, this leads to cleaner and easier-to-maintain code.
